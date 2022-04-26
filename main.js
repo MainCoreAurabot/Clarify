@@ -45,7 +45,7 @@ require("./function/loadPlugin.js")();
 
 
 //function login to facebook
-const loginFB = require("./function/facebook/login.js");
+const loginFB = require("./login.js");
 const modules = {
     loginwithappstate: loginFB,
     loadData: function () {
